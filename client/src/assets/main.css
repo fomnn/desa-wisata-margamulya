@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn {
+  @apply px-6 sm:px-8 py-[9px] sm:py-2 font-medium rounded-full border border-white
+}
+
+.ct-container {
+  @apply px-10 sm:px-40 py-24
+}
+
+#app > div {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 14px;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/Abhaya_Libre/AbhayaLibre-Medium.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/Abhaya_Libre/AbhayaLibre-Bold.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(/fonts/Abhaya_Libre/AbhayaLibre-ExtraBold.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(/fonts/Abhaya_Libre/AbhayaLibre-SemiBold.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('ttf');
+  }
+}
